@@ -13,8 +13,6 @@ namespace SkyArticle.Steps
         [HttpGet]
         public async Task LoadArticle(int articleUrl)
         {
-
-
             if (articleUrl > 0)
             {
                 url = $"https://5f99522350d84900163b8737.mockapi.io/tech-test/articles/{articleUrl}";
